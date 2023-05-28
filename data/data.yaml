@@ -1,0 +1,13 @@
+train: "D:/Projects/Python/Machine_Learning/segmentation/segmentation/data/processed/images"
+val: "D:/Projects/Python/Machine_Learning/segmentation/segmentation/data/raw/valid/images"
+test: "D:/Projects/Python/Machine_Learning/segmentation/segmentation/data/raw/test/images "
+
+nc: 7
+names: ['AKIEC', 'BCC', 'BKL', 'DF', 'MEL', 'NV', 'VASC']
+
+roboflow:
+  workspace: kaplan-qsxnv
+  project: detection-of-skin-cancer-types-83wll
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/kaplan-qsxnv/detection-of-skin-cancer-types-83wll/dataset/1
