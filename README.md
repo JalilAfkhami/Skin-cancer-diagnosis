@@ -13,3 +13,21 @@ The mAP[Box] at 0.50 IoU is 57.4 and at 0.50:0.95 IoU is 42.7. And the mAP[Mask]
 
 To see more details, cheack: 
 *visualize_results.ipynb in notebooks*
+## Set Up the Project
+1. Install requirement packages
+```
+pip install -r requirements.txt
+```
+## Run the Project
+- To train the model on dataset
+```
+python src/model/train.py
+```
+- To validate the model on validation dataset
+```
+python src/model/val.py
+```
+- To predict test dataset
+```
+python src/model/predict.py
+```
