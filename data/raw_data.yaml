@@ -1,6 +1,6 @@
-train: "D:/Projects/Python/Machine_Learning/segmentation/segmentation/data/raw/train/images"
-val: "D:/Projects/Python/Machine_Learning/segmentation/segmentation/data/raw/valid/images"
-test: "D:/Projects/Python/Machine_Learning/segmentation/segmentation/data/raw/test/images "
+train: "data/raw/train/images"
+val: "data/raw/valid/images"
+test: "data/raw/test/images "
 
 nc: 7
 names: ['AKIEC', 'BCC', 'BKL', 'DF', 'MEL', 'NV', 'VASC']
