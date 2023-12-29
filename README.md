@@ -1,4 +1,4 @@
-# Skin-cancer-diagnosis
+# Object Segmentation: Skin cancer diagnosis using Yolov8
 Skin cancer detection using YOLOv8n-seg
 
 ## Project Structure
